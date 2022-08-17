@@ -8,4 +8,4 @@ WORKDIR /code
 COPY src/ .
 
 # command to run on container start
-CMD [ "python", "./print.py" ]
+CMD [ "python", "./personal-assistant.py" ]
