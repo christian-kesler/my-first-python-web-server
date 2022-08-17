@@ -5,4 +5,4 @@ FROM python:3.8
 WORKDIR /
 
 # command to run on container start
-CMD [ "python", "./server.py" ]
+CMD [ "python", "server.py" ]
