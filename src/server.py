@@ -2,6 +2,8 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 
+print("attempting to start server. . . ")
+
 hostName = "localhost"
 serverPort = 8000
 
