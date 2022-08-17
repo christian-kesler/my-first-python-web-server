@@ -8,4 +8,4 @@ WORKDIR /code
 COPY src/ .
 
 # command to run on container start
-CMD [ "python", "./server.py" ]
+CMD [ "python", "./print.py" ]
